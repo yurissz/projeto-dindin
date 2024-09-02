@@ -1,0 +1,21 @@
+.layoutConteiner {
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.10);
+}
+
+.positioningConteiner {
+    color: #000;
+    font-family: Lato;
+    font-weight: 500;
+
+    margin-left: 6.9%;
+    height: 68px;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.2em;
+    padding-left: 28px;
+    padding-right: 141px;
+}

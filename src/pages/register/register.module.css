@@ -1,0 +1,93 @@
+.bgRegister{
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url('../../assets/background.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.imgWrapper{
+  padding-top: 42px;
+  height: fit-content;
+}
+
+.containerRegister{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  flex-direction: column;
+  background-color: #fff;
+  width:40%;
+  height: 87%;
+  border-radius: 5px;
+}
+
+.containerWrap{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.containerRegister h2{
+  color:#7978D9;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+  color: #484848;
+}
+
+.forms label{
+  margin-bottom: 6px;
+}
+
+.forms input {
+  margin-bottom: 8px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.forms input:focus {
+  border-color: #7978D9; 
+  box-shadow: 0 0 5px rgba(121, 120, 217, 0.5); 
+  outline: none;
+}
+
+.alertText{
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: #7978D9;
+  text-align: center;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.alertText:hover{
+  color: #4f4e92;
+}
+
+.errorInputText{
+  color: #4f4e92;
+  font-size: small;
+}

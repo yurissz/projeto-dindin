@@ -1,0 +1,148 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.alingItensRow {
+    position: fixed;
+    top: 3%;
+    right: 35%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    background: #FFF;
+    border: #000 2px solid;
+    width: 25vw;
+    height: 85vh;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+.alingTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 46px;
+    font-size: 21px;
+}
+
+.button {
+    width: 50%;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #B9B9B9;
+    color: #FFFFFF;
+}
+
+.activeButtonEntrada {
+    background-color: #3A9FF1
+}
+
+.activeButtonSaida {
+    background-color: #FF576B;
+}
+
+.alignButtons {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+
+.forms {
+    color: #484848;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    color: #484848;
+    padding-bottom: 6em;
+}
+
+.forms select {
+    border: 1px solid #555555;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.forms input {
+    border: 1px solid #555555;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.forms input:focus {
+    border-color: #7978D9;
+    box-shadow: 0 0 5px rgba(121, 120, 217, 0.5);
+    outline: none;
+}
+
+.forms input:nth-last-of-type(1) {
+    margin-bottom: 73px;
+}
+
+.forms label {
+    padding-top: 1em;
+}
+
+.closeIcon {
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.closeIcon:hover {
+    transform: rotate(90deg);
+    transition: all ease 0.5s;
+}
+
+
+.buttonSubmit {
+    width: 100%;
+}
+
+.customButton {
+    background-color: #7978D9;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 1rem 3rem;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.5s ease;
+}
+
+.customButton:hover {
+    background-color: #5554a1;
+}

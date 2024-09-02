@@ -1,0 +1,93 @@
+.conteinerPrincipal {
+    width: 236px;
+    height: 196px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px 0px rgba(0, 0, 0, 0.10);
+    color: #2F2F2F;
+}
+
+.layoutResumoTitle {
+    color: #2F2F2F;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 81px;
+
+    padding-top: 26px;
+    padding-left: 33px;
+}
+
+.valueEntrada {
+    color: #645FFB;
+    text-align: right;
+    font-feature-settings: 'liga' off, 'clig' off;
+    width: 89px;
+}
+
+.valueSaida {
+    color: #FA8C10;
+    text-align: right;
+    font-feature-settings: 'liga' off, 'clig' off;
+    width: 89px;
+}
+
+.valueSaldo {
+    color: #3A9FF1;
+    text-align: right;
+    font-feature-settings: 'liga' off, 'clig' off;
+    width: 89px;
+}
+
+.costumString {
+    color: #2F2F2F;
+    font-family: Rubik;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.stringSaldo {
+    font-weight: 700;
+}
+
+.alingEntradaConteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 23px;
+}
+
+.alingSaidaConteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 12px;
+}
+
+.alingSaldoConteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 16px;
+}
+
+.border {
+    border-bottom: #E0E0E0 2px solid;
+    width: 80%;
+    margin-left: 24px;
+    padding-top: 12px;
+}

@@ -1,0 +1,17 @@
+.customButton{
+  background-color: #7978D9;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  padding: 1rem 3rem;
+  width: fit-content;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.customButton:hover{
+  background-color: #5554a1;
+}

@@ -1,0 +1,48 @@
+.costumConteiner {
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.alingConteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 56vw;
+    margin-left: 10%;
+    padding-top: 24px;
+}
+
+.alingIcons {
+    display: flex;
+    padding-top: 18px;
+    gap: 1em;
+}
+
+.alingBothConteiners {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    padding-bottom: 24px;
+    padding-right: 40px;
+}
+
+.positionBorder {
+    flex-direction: column;
+}
+
+.borderEntreItens {
+    border-bottom: #E0E0E0 2px solid;
+    width: 91%;
+    margin-left: 7%;
+    margin-right: 10%;
+}
+
+.clickableItem {
+    cursor: pointer;
+}

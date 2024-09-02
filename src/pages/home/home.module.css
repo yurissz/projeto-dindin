@@ -1,0 +1,20 @@
+.alingConteiners {
+    display: flex;
+    flex-direction: column;
+}
+
+.alingBody {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    padding-left: 2.8%;
+    padding-top: 8%;
+    border-radius: 60px 60px 0px 0px;
+    background: #FFF;
+}
+
+.negativeMessageNoItem {
+    color: #7978D9;
+    padding-left: 50%;
+    padding-top: 15%;
+}

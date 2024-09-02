@@ -1,0 +1,44 @@
+.customHeader {
+    background: linear-gradient(90deg, #05EDE3 0.02%, #645FFB 99.63%);
+    width: 100vw;
+    height: 35vh;
+}
+
+.customConteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    flex-direction: row;
+}
+
+.alingNavBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.alingUserName {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.customName {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logoutImg {
+    cursor: pointer;
+    filter: none;
+    transition: all ease 0.3s;
+}
+.logoutImg:hover{
+    transform: translateY(-3px);
+}
