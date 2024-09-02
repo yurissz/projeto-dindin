@@ -5,9 +5,10 @@
 
 - Node.js
 - Typescript
+- React
+- Vite
 - HTML
 - CSS
-- React
 
 <h2> :hammer: Funcionalidades do projeto </h2>
 
